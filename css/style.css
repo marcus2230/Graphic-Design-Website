@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Ailerons';
+    src: url('fonts/Ailerons.ttf');
+    src: local('Ailerons.ttf'), local('Ailerons'), url('fonts/Ailerons.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway Light';
+    src: url('fonts/Raleway-Light.ttf');
+    src: local('Raleway-Light.ttf'), local('Raleway-Light'), url('fonts/Raleway-Light.ttf') format('truetype');
+}
+
+
+html,body {
+  text-align: center;
+ height:100%; }
+
+.background{
+   -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 0.5s;
+  height:100%;
+   background-image: url('../images/bg.png'); 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+
+h1{
+  
+	color: white;
+	font-size: 55px;
+	text-align: center;
+	font-family: "Ailerons", Times, serif;
+}
+h2 {
+	font-size: 25px;
+	color: white;
+	font-family: "Raleway Light", Times, serif;
+	margin-top: 50px;
+}
+.name{
+	padding-top:22%;
+}
+
+ p{
+	font-size: 18px;
+	font-family: "Raleway Light";
+	color:white;}
+
+li{font-family: 'Ailerons';
+font-size:18px;
+}
+
+#writing-container{
+  padding-top: 60px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.h{
+	font-size: 25px;
+	color:white;
+	font-family:'Ailerons';
+}
+
+.contact{
+	font-size:20px; 
+	color: white;
+}
+
+body {
+		text-align: center;
+	background: black;
+}
+
+#face-image{
+	text-align: center;
+	width:325px;
+	height: 275px;
+}
+
+#face-image{ 
+	-webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 1s;
+  -ms-animation-duration: [3s];
+  -ms-animation-delay: [1s];
+  border: 1px solid black;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  
+    filter: gray;  
+    -webkit-transition: all .6s ease;
+}
+
+#face-image:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+#icons{
+	color: gray;
+}
+
+
+.navbar-default {
+  background-color: #000000;
+  border-color: #000000;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #e7e7e7;
+  background-color: #000000;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #e7e7e7;
+  background-color: #000000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #000000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #000000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #e7e7e7;
+    background-color: #000000;
+  }
+}
+
+
+
+.social-media{
+  text-align: center;
+  display: inline-block;
+  border: 7px solid #fff;  
+  height: 10vmin;
+  width: 10vmin;
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}
+
+.social-media{
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.social-media:hover {
+  border:1.75vmin solid #fff;
+  border-radius: 50%;
+}
+
+.contact {
+  padding-left: 10%
+  padding-right 10%;
+  padding-top: 60px;
+}
+
+.contact a{
+  color: #fff;
+}
+
+.contact-section{
+  padding-top: 50px;
+}
+
+.contact-section p{
+  font-size: 3vmin;
+}
